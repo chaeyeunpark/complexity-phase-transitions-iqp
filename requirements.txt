@@ -1,0 +1,4 @@
+git+https://github.com/chaeyeunpark/numpy-bin-tools.git@main#numpy_bin_tools
+numba
+flax
+optax
