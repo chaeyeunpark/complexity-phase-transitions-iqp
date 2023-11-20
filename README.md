@@ -1,2 +1,2 @@
-# complexity-phase-transitions-iqp
-Source code for "complexity phase transitions in instantaneous quantum polynomial-time circuits" 
+# Complexity phase transitions in instantaneous quantum polynomial-time circuits
+Source code for "complexity phase transitions in instantaneous quantum polynomial-time circuits." 
