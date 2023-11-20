@@ -35,4 +35,4 @@ will create a file `IQP_ZZ_N16_NQ025.npy` which contains wavefunctions for $N=16
 ```
 $ python3 python_src/learn_iqp_ngd.py --data-path IQP_ZZ_N16_NQ025.npy --learning-rate 0.0005 --beta2 0.999 --gamma 10 --idx 0
 ```
-Here, the argument `--idx` indicates that the wavefunction in the data file for the given index will be used as train data. Arguments `--learning-rate` and `--beta2` controls the hyperparameters, and `--gamma` determines the size of the network to use (see the paper).
+Here, the argument `--idx` indicates that the wavefunction in the data file of the given index will be used as train data. Thus, in our case, it is an integer between 0 to 31. Arguments `--learning-rate` and `--beta2` controls the hyperparameters, and `--gamma` determines the size of the network to use (see the paper).
