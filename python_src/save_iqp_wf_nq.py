@@ -36,4 +36,4 @@ if __name__ == '__main__':
         st = np.array(walsh_hadamard(st))
         states.append(st)
 
-    np.save('IQP_ZZ_N{}_NQ{:04d}.npy'.format(N, int(nq*100)), states)
+    np.save('IQP_ZZ_N{}_NQ{:03d}.npy'.format(N, int(nq*100)), states)

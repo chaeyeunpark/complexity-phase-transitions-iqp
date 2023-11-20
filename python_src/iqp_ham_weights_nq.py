@@ -23,7 +23,6 @@ if __name__ == '__main__':
             description = 'Run random IQP circuit')
 
     parser.add_argument('N', type=int, metavar='N', help='Number of qubits')
-    parser.add_argument('--q', required=False, type=float)
     parser.add_argument('--device', default='lightning.qubit', help="Which device to use to run the calculation")
 
     args = parser.parse_args()
